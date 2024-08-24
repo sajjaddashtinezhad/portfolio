@@ -6,22 +6,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 @layer utilities {
-    .cursor-custom {
-        cursor: none;
-        position: fixed;
-        width: 16px;
-        height: 16px;
-        background-image: url('../src/img/Cursor.svg');
-        background-size: cover;
-        border-radius: 50%;
-        pointer-events: none;
-        transform: translate(-50%, -50%);
-        transition: transform 0.2s ease, width 0.2s ease, height 0.2s ease;
-        z-index: 9999;
-        mix-blend-mode: difference;
-      }
-    
-      .cursor-hover {
-        transform: scale(2);
-      }
+    @media (min-width: 768px) {
+        
+        .cursor-custom {
+            cursor: none;
+            position: fixed;
+            width: 16px;
+            height: 16px;
+            background-image: url('../src/img/Cursor.svg');
+            background-size: cover;
+            border-radius: 50%;
+            pointer-events: none;
+            transform: translate(-50%, -50%);
+            transition: transform 0.2s ease, width 0.2s ease, height 0.2s ease;
+            z-index: 9999;
+            mix-blend-mode: difference;
+          }
+        
+          .cursor-hover {
+            transform: scale(2);
+          }
+    }
   }
