@@ -829,6 +829,10 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
   overflow: hidden;
 }
 
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
 .rounded-3xl {
   border-radius: 1.5rem;
 }
