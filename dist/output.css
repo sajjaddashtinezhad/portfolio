@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.4.10 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.11 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -694,16 +694,16 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
   height: 13rem;
 }
 
+.h-60 {
+  height: 15rem;
+}
+
 .h-auto {
   height: auto;
 }
 
 .h-full {
   height: 100%;
-}
-
-.min-h-64 {
-  min-height: 16rem;
 }
 
 .w-1 {
@@ -716,6 +716,10 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
 
 .w-5 {
   width: 1.25rem;
+}
+
+.w-60 {
+  width: 15rem;
 }
 
 .w-fit {
@@ -1220,6 +1224,10 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
     height: 16rem;
   }
 
+  .md\:h-96 {
+    height: 24rem;
+  }
+
   .md\:h-auto {
     height: auto;
   }
@@ -1381,6 +1389,10 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
 
   .lg\:w-1\/2 {
     width: 50%;
+  }
+
+  .lg\:w-96 {
+    width: 24rem;
   }
 
   .lg\:w-auto {

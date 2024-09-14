@@ -1,0 +1,37 @@
+# exported by https://3dviewer.net
+newmtl Wolf3D_Eye
+Kd 1 1 1
+d 1
+map_Kd Binary_2.jpeg
+newmtl Wolf3D_Skin
+Kd 1 1 1
+d 1
+map_Kd Binary_1.jpeg
+newmtl Wolf3D_Teeth
+Kd 1 1 1
+d 1
+map_Kd Binary_0.jpeg
+newmtl Wolf3D_Glasses
+Kd 1 1 1
+d 1
+map_Kd Binary_3.png
+newmtl Wolf3D_Headwear
+Kd 1 1 1
+d 1
+map_Kd Binary_5.jpeg
+newmtl Wolf3D_Body
+Kd 1 1 1
+d 1
+map_Kd Binary_17.jpeg
+newmtl Wolf3D_Outfit_Bottom
+Kd 1 1 1
+d 1
+map_Kd Binary_9.jpeg
+newmtl Wolf3D_Outfit_Footwear
+Kd 1 1 1
+d 1
+map_Kd Binary_12.jpeg
+newmtl Wolf3D_Outfit_Top
+Kd 1 1 1
+d 1
+map_Kd Binary_15.jpeg
