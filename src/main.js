@@ -64,6 +64,7 @@ function animate() {
 }
 animate();
 
+/*
 // Handle window resizing
 window.addEventListener('resize', () => {
     const width = window.innerWidth;
@@ -72,6 +73,7 @@ window.addEventListener('resize', () => {
     camera.aspect = width / height;
     camera.updateProjectionMatrix();
 });
+*/
 
 // Mouse move event
 window.addEventListener('mousemove', (event) => {
