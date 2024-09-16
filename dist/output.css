@@ -658,28 +658,12 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
   grid-row-end: 6;
 }
 
-.row-end-9 {
-  grid-row-end: 9;
-}
-
-.row-end-11 {
-  grid-row-end: 11;
-}
-
-.row-end-10 {
-  grid-row-end: 10;
-}
-
 .row-end-8 {
   grid-row-end: 8;
 }
 
-.row-end-2 {
-  grid-row-end: 2;
-}
-
-.row-end-3 {
-  grid-row-end: 3;
+.row-end-9 {
+  grid-row-end: 9;
 }
 
 .m-0 {
@@ -759,6 +743,10 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
   margin-top: 0.75rem;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
 .mt-6 {
   margin-top: 1.5rem;
 }
@@ -769,14 +757,6 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
 
 .mt-9 {
   margin-top: 2.25rem;
-}
-
-.mb-28 {
-  margin-bottom: 7rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
 }
 
 .block {
@@ -852,10 +832,6 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
   width: 100%;
 }
 
-.w-1\/2 {
-  width: 50%;
-}
-
 .max-w-xl {
   max-width: 36rem;
 }
@@ -916,16 +892,8 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
   grid-template-rows: repeat(5, minmax(0, 1fr));
 }
 
-.grid-rows-10 {
-  grid-template-rows: repeat(10, minmax(0, 1fr));
-}
-
 .grid-rows-7 {
   grid-template-rows: repeat(7, minmax(0, 1fr));
-}
-
-.grid-rows-2 {
-  grid-template-rows: repeat(2, minmax(0, 1fr));
 }
 
 .flex-row {
@@ -996,18 +964,10 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
   gap: 2rem;
 }
 
-.gap-16 {
-  gap: 4rem;
-}
-
 .space-y-4 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
-}
-
-.self-start {
-  align-self: flex-start;
 }
 
 .self-end {
@@ -1016,10 +976,6 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
 
 .self-center {
   align-self: center;
-}
-
-.self-stretch {
-  align-self: stretch;
 }
 
 .justify-self-center {
@@ -1048,11 +1004,6 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
 
 .rounded-xl {
   border-radius: 0.75rem;
-}
-
-.rounded-e-3xl {
-  border-start-end-radius: 1.5rem;
-  border-end-end-radius: 1.5rem;
 }
 
 .rounded-e-xl {
@@ -1139,6 +1090,11 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
   padding-right: 1.5rem;
 }
 
+.px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -1169,21 +1125,12 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
   padding-bottom: 2rem;
 }
 
-.px-7 {
-  padding-left: 1.75rem;
-  padding-right: 1.75rem;
-}
-
 .pr-4 {
   padding-right: 1rem;
 }
 
 .pt-10 {
   padding-top: 2.5rem;
-}
-
-.pt-5 {
-  padding-top: 1.25rem;
 }
 
 .font-sans {
@@ -1602,14 +1549,14 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
     padding-right: 3rem;
   }
 
-  .md\:py-12 {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-  }
-
   .md\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .md\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 
   .md\:pb-16 {
@@ -1640,16 +1587,12 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
     padding-top: 2.5rem;
   }
 
-  .md\:pt-8 {
-    padding-top: 2rem;
-  }
-
-  .md\:pt-4 {
-    padding-top: 1rem;
-  }
-
   .md\:pt-5 {
     padding-top: 1.25rem;
+  }
+
+  .md\:pt-8 {
+    padding-top: 2rem;
   }
 
   .md\:text-2xl {
@@ -1709,44 +1652,12 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
 }
 
 @media (min-width: 1024px) {
-  .lg\:col-start-2 {
-    grid-column-start: 2;
-  }
-
-  .lg\:col-start-1 {
-    grid-column-start: 1;
-  }
-
-  .lg\:col-end-3 {
-    grid-column-end: 3;
-  }
-
-  .lg\:col-end-2 {
-    grid-column-end: 2;
-  }
-
-  .lg\:row-start-2 {
-    grid-row-start: 2;
-  }
-
-  .lg\:row-start-1 {
-    grid-row-start: 1;
-  }
-
-  .lg\:row-end-8 {
-    grid-row-end: 8;
-  }
-
-  .lg\:mt-0 {
-    margin-top: 0px;
-  }
-
   .lg\:mb-10 {
     margin-bottom: 2.5rem;
   }
 
-  .lg\:mb-7 {
-    margin-bottom: 1.75rem;
+  .lg\:mt-0 {
+    margin-top: 0px;
   }
 
   .lg\:grid {
@@ -1793,10 +1704,6 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .lg\:grid-rows-7 {
-    grid-template-rows: repeat(7, minmax(0, 1fr));
-  }
-
   .lg\:flex-row {
     flex-direction: row;
   }
@@ -1819,10 +1726,6 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
   .xl\:mx-auto {
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .xl\:mb-20 {
-    margin-bottom: 5rem;
   }
 
   .xl\:max-w-screen-2xl {
