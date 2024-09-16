@@ -602,6 +602,10 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
   z-index: 10;
 }
 
+.z-20 {
+  z-index: 20;
+}
+
 .col-start-1 {
   grid-column-start: 1;
 }
@@ -932,14 +936,6 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
   gap: 2rem;
 }
 
-.gap-10 {
-  gap: 2.5rem;
-}
-
-.gap-16 {
-  gap: 4rem;
-}
-
 .space-y-4 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
@@ -1132,21 +1128,6 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-7xl {
-  font-size: 4.5rem;
-  line-height: 1;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
 }
 
 .font-bold {
@@ -1583,6 +1564,11 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
     line-height: 2.5rem;
   }
 
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
   .md\:text-7xl {
     font-size: 4.5rem;
     line-height: 1;
@@ -1596,11 +1582,6 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .md\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
   }
 
   .md\:opacity-0 {
@@ -1671,10 +1652,6 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
 
   .lg\:gap-16 {
     gap: 4rem;
-  }
-
-  .lg\:gap-8 {
-    gap: 2rem;
   }
 
   .lg\:p-16 {
