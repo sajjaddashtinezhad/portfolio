@@ -582,6 +582,10 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
   left: 0px;
 }
 
+.left-6 {
+  left: 1.5rem;
+}
+
 .right-0 {
   right: 0px;
 }
@@ -592,18 +596,6 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
 
 .top-0 {
   top: 0px;
-}
-
-.left-5 {
-  left: 1.25rem;
-}
-
-.left-8 {
-  left: 2rem;
-}
-
-.left-6 {
-  left: 1.5rem;
 }
 
 .z-0 {
@@ -796,6 +788,10 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
   display: none;
 }
 
+.h-16 {
+  height: 4rem;
+}
+
 .h-28 {
   height: 7rem;
 }
@@ -822,14 +818,6 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
 
 .h-full {
   height: 100%;
-}
-
-.h-16 {
-  height: 4rem;
-}
-
-.h-12 {
-  height: 3rem;
 }
 
 .w-1 {
@@ -955,10 +943,6 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
 
 .items-stretch {
   align-items: stretch;
-}
-
-.justify-start {
-  justify-content: flex-start;
 }
 
 .justify-center {
@@ -1435,16 +1419,16 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
     top: -0.5rem;
   }
 
+  .md\:left-8 {
+    left: 2rem;
+  }
+
   .md\:left-auto {
     left: auto;
   }
 
   .md\:right-0 {
     right: 0px;
-  }
-
-  .md\:left-8 {
-    left: 2rem;
   }
 
   .md\:mx-12 {
@@ -1498,6 +1482,10 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
     height: 0.25rem;
   }
 
+  .md\:h-28 {
+    height: 7rem;
+  }
+
   .md\:h-64 {
     height: 16rem;
   }
@@ -1512,10 +1500,6 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
 
   .md\:h-auto {
     height: auto;
-  }
-
-  .md\:h-28 {
-    height: 7rem;
   }
 
   .md\:w-1\/2 {
@@ -1642,6 +1626,10 @@ html.js :where([class*="taos:"]:not(.taos-init)) {
 
   .md\:pt-8 {
     padding-top: 2rem;
+  }
+
+  .md\:pb-24 {
+    padding-bottom: 6rem;
   }
 
   .md\:text-2xl {
